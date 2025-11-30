@@ -1,0 +1,50 @@
+{
+    "paths": {
+        "template": "C:/Users/ranab/OneDrive/Desktop/Admit Card Generator/Blank.png",
+        "data": "C:/Users/ranab/OneDrive/Desktop/Admit Card Generator/dummy_data.csv",
+        "output": "C:/Users/ranab/OneDrive/Desktop/Admit Card Generator/output",
+        "coordinates": "C:/Users/ranab/OneDrive/Desktop/Admit Card Generator/coordinates.json"
+    },
+    "font": {
+        "path": "C:/Windows/Fonts/times.ttf",
+        "size": 35,
+        "color": "black"
+    },
+    "fields": [
+        "name",
+        "gender",
+        "semester",
+        "dob",
+        "course",
+        "APAAR",
+        "roll no.",
+        "reg no."
+    ],
+    "text_sizes": {
+        "name": [400, 50],
+        "gender": [150, 50],
+        "semester": [100, 50],
+        "dob": [250, 50],
+        "course": [400, 50],
+        "APAAR": [300, 50],
+        "roll no.": [250, 50],
+        "reg no.": [250, 50]
+    },
+    "performance": {
+        "enable_multithreading": true,
+        "max_workers": 4
+    },
+    "preview": {
+        "enabled": true,
+        "preview_count": 1
+    },
+    "output": {
+        "generate_pdf": false,
+        "pdf_filename": "admit_cards.pdf"
+    },
+    "optimization": {
+        "enabled": true,
+        "quality": 85,
+        "compress_level": 6
+    }
+}

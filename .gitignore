@@ -1,0 +1,40 @@
+# Output folder - generated admit cards
+output/
+*.png
+!Blank.png
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Coordinates (optional - uncomment if you don't want to share)
+# coordinates.json
+
+# PDF output
+*.pdf
